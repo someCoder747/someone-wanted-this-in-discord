@@ -5,6 +5,8 @@ using namespace std;
 
 namespace gay{
   int foo;
-  string bar;
+  string bar(foo){
+    foo++;
+  };
   bool foobar;
 }
