@@ -1,7 +1,10 @@
 #include "header.hpp"
 
 int main(){
-  string totallyUnintentional = gay::bar(12);
+  string input;
+  cout << "Enter a number: ";
+  cin >> input;
+  string totallyUnintentional = gay::bar(input);
   cout << totallyUnintentional << endl;
   return 0;
 }
